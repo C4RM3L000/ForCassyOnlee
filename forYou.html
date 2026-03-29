@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>For You Cassy ❤️</h1>
+        <p class="intro">
+            I made this just for you Baby mwehehe. Click anything below whenever you need meee.
+        </p>
+
+        <div class="buttons">
+            <button onclick="showMessage('sad')">When you're sad 😢</button>
+            <button onclick="showMessage('miss')">When you miss me 💭</button>
+            <button onclick="showMessage('surprise')">Surprise Message 🎁</button>
+        </div>
+<button onclick="toggleMusic()" id="musicBtn">Play Music 🎵</button>
+
+<audio id="bgMusic" loop>
+    <source src="blueYK.mp3" type="audio/mpeg">
+</audio>
+        <div id="messageBox" class="message"></div>
+    </div>
+
+    <script src="msg.js"></script>
+</body>
+</html>
